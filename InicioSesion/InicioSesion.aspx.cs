@@ -38,6 +38,13 @@ namespace InicioSesion
             {
                 lblError.Text = "No pueden crear campos Vacíos";
             }
+            else
+            {
+                if (tbConfirmarPassword.Text!=tbPassword.Text|| tbPassword.Text!=tbConfirmarPassword.Text)
+                {
+                    lblErrorPassword.Text = "las Contraseñas no son iguales";
+                }
+            }
 
         }
     }

@@ -78,7 +78,7 @@
                                 <asp:TableRow>
                                     <asp:TableCell>
                                        <asp:Label runat="server"  ID="lblError" CssClass="aler-danger"></asp:Label>
-                                        <asp:Label runat="server"  ID="lblErrorPassword" CssClass="aler-danger"></asp:Label>
+                                        <asp:Label runat="server"  ID="lblErrorPassword" CssClass="bg-warning"></asp:Label>
                                     </asp:TableCell>
                                 </asp:TableRow>
                             </asp:Table>
